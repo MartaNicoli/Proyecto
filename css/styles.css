@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;  
+}
+
+#azul {
+    background-color: rgb(40,64,168);
+    color: #55BB53;
+    padding: 2.5rem 2rem;
+    word-spacing: 0.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#azul h1 {
+    font-weight: bold;
+}
+
+#azul h4 {
+    width: 25rem;
+    margin-bottom: 3rem;
+}
+
+#azul a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #55BB53;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+}
+
+.contenedor{
+    /* max-width: 30rem; */
+    background-color:black;
+    margin: auto;
+    display: flex;
+    height: 19rem;
+}
+/* display flex ayuda a colocar las cajas como si fueran celdas de tablas 
+La etiqueta Wrap se emplea para que puedan dividirse */
+.fila{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 1rem;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/*color de fondo del pie de página*/
+.footer {
+    background-color:yellow;
+    padding: 10rem
+    rem;
+}
+/* se centran las columnas y se ordenan hacia el lado*/
+.footer-col{
+    min-width: 10rem;
+    height: 10rem;
+    padding: 2 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* para interlineados de listas*/
+.footer-col ul li:not(:last-child){
+    margin-bottom: 0.5rem;
+}
+
+/* para destacar en color el link de redes sociales*/
+.footer-col ul li a:hover{
+    color:coral;
+}
+
+.footer-col .redes-sociales{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(45, 42, 42);
+    margin: 0 1.0rem 0.5rem 0;    
+    line-height: 2rem;/*centra el icono de la red social*/
+    border-radius: 50%;/* entre mas porcentaje mas redondo el radio*/
+    color: #ffffff;
+    transition: all 0.5s ease;
+    padding-left: 3 rem;
+
+}
+/*hover cambia de color al posicionar el mouse en el icono*/
+.footer-col .redes-sociales:hover{
+background-color:#ffffff;
+
+}
+
+.last-footer-col {
+    text-align: center;
+    flex-direction: row;
+}
+
+#iconospotify {
+    display: inline-block;
+    margin-left: 10rem;
+    margin-bottom: -1.5rem;
+    text-transform: capitalize;
+    
+}
+
+.footer-col h4 {
+    margin-bottom: 1rem;
+    
+}
+/*define color de titulos en blanco*/
+.footer-col h4 {
+    font-size: 1 rem;
+    color: #ffffff;
+    text-transform: uppercase;/*deja los titulos en mayusculas*/
+    margin-bottom: 2 rem;
+    font-weight: 500;
+    position: relative;
+}
+/* deja los link en color blanco*/
+.footer-col ul li a {
+    text-decoration: none;/* text-decoration none es sin subrayado*/
+    color: #bbbbbb;/*color del link blanco"*/
+    display: block;
+    transition: all 0.3s ease;/*indicar la cantidad de tiempo en que debe aparecer el color*/
+}

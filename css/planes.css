@@ -1,0 +1,66 @@
+.text-center {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+/* margenes de los botones*/
+#boton2 {
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+#h3 {
+    margin-top: 1rem;
+    margin-right: 5rem;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+#parrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 4rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: justify;
+    padding: 1.0rem;
+    
+}
+
+#plan_i {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    list-style: none;
+}
+
+/*botón comenzar*/
+#btn1 {
+    margin-top: 13rem;
+}
+
+/*botón comenzar*/
+#btn2 {
+    margin-top: 10rem;
+}
+
+/*botón comenzar*/
+#btn3 {
+    margin-top: 2.5rem;
+}
+
+/*botón comenzar*/
+#btn4 {
+    margin-top: 11.2rem;
+}
+
+.terminosycondiciones{
+font-size: 0.6rem;
+margin: 0.5rem;
+}
+
+#estudiantes{
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+
+}
